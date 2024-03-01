@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 260vh;
+}
+.shortintro{
+    display: inline-block;
+    font-size: 20px;
+    position: relative;
+    top: 140px;
+    left: 15%;
+    color: whitesmoke
+}
+
+pre{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: xxx-large;
+}
+.block1{
+    overflow: auto;
+}
+
+.block1>.myimg>img{
+    float: right;
+
+}
+
+.briefintro{
+    margin: 150px 10px 10px 10px;
+    padding: 20px;
+    border: 2px solid rgba(245, 245, 245, 0.546);
+    border-radius: 2px;
+
+    color: whitesmoke;
+    font-size: large;
+    text-align: justify;
+}
+
+/* contact details */
+
+.contact{
+    margin-top: 70px;
+    padding: 20px;
+    color: whitesmoke;
+    font-size: large;
+    text-align: justify;
+}
+
+.contact>div{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 250px;
+    margin-right: 200px;
+    display: inline-block;
+}
+.contact>div>a{
+    color: azure;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-bottom: 30px;
+}
+.contact>div>a:hover{
+    font-size: x-large;
+    color: rgb(109, 205, 205);
+}
+.contact>div>img{
+    height:30px ;
+}
+
+.contact>p{
+    display: inline-block;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-right: 210px;
+}
+
+.contact>h2, .briefintro>h2{
+    position: relative;
+    text-align: center;
+}
+
+#txtar{
+    margin-top: 40px;
+}

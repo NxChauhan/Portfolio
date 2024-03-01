@@ -1,0 +1,100 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(24, 28, 29);
+    width: 100%;
+    box-sizing: border-box;
+}
+
+
+.navbar {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    font-family: Arial, sans-serif;
+}
+
+.navbar>ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.navbar>ul>li {
+    margin-right: 60px;
+}
+
+.nav-list a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+a:hover{
+    color: rgb(89, 174, 249);
+    font-size: large;
+}
+
+.page-name{
+    font-family:cursive;
+    width: 100vw;
+}
+
+.page-name>h1{
+    position:relative;
+    display: flex;
+    justify-content: center;
+    color: rgb(215, 236, 255);
+
+}
+
+.highlight{
+    background-color: rgba(255, 255, 212, 0.286);
+}
+/* Add additional styling as needed */
+
+
+#art1>img, #art3>img{
+    float: right; 
+    margin-right: 40px;
+
+}
+
+#art1>h3,ul, #art3>h3,ul{
+    margin-top: 30px;
+    margin-left: 90px;
+}
+
+#art2>img{
+    float: left;
+    height: 290px;
+    margin-left: 100px;
+}
+
+#art2>.spacingbw{
+    position: relative;
+    justify-content: center;
+    margin-top:30px;
+    margin-left: 520px;
+    padding: 30px;
+}
+
+#art3>img{
+height: 320px;
+}
+
+.edudetails>article, .achvdetails>article{
+    margin: 10px;
+    padding: 10px;
+    overflow: auto;
+    border: 1px dashed whitesmoke;
+    background-color: rgba(56, 59, 59, 0.609);
+}
+
+

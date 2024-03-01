@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    color: azure;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.interncft{
+    margin-top: 20px;
+    margin-left: 40px;
+    margin-right: 40px;
+    padding: 10px;
+    border: 1px dashed whitesmoke;
+    background-color: rgba(56, 59, 59, 0.609);
+    text-align: justify;
+}
+
+img{
+    height: 400px;
+    position: relative;
+    margin-left: 25%;
+    margin-bottom: 20px;
+}

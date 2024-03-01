@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:azure
+}
+.cfts>#cft1>a>img, .cfts>#cft2>a>img{
+height: 300px;
+display: inline;
+margin: 30px;
+}
+
+.cfts>#cft2>a>img{
+    margin: 30px;
+}
+
+.cfts>#cft1>a>img:hover, .cfts>#cft2>a>img:hover{
+height:310px;
+}
+#cft1{
+    size:3000px;
+    display: inline-block;
+    position: relative;
+    margin-left: 140px;
+    text-align: center;
+}
+
+#cft2{
+    size: 3200px;
+    display: inline-block;
+    text-align: center;
+
+}
+
+.badges{
+    border: 2px dotted rgb(171, 163, 163);
+    padding-top: 10px;
+    padding-bottom: 15px;
+    margin: 10px;
+}
+
+.badges>h2{
+    text-align: center;
+    color: rgb(215, 236, 255);
+    font-family: cursive;
+}
+
+.badges>.mlb, .badges>.gcb{
+    padding-left: 170px;
+}
+
+.badges>.mlb>ul>li>a, .badges>.gcb>ul>li>a{
+    color: whitesmoke;
+}
+
+.badges>.mlb>ul>li>a:hover, .badges>.gcb>ul>li>a:hover{
+    color: rgb(109, 205, 214);
+}
